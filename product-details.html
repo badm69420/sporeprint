@@ -18,21 +18,20 @@
 					<li><a href="">Shrooms</a></li>
 					<li><a href="">About</a></li>
 					<li><a href="">Contact</a></li>
-					<li><a href="">Account</a></li>
 				</ul>
 			</nav>
 			<img src="images/shopping-cart-icon-29084.gif" width="30px" height="30px">
 			<img src="images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
  		</div>
 	</div>
-	
+
 <!----- single product details----->
 
 	<div class="small-container single-product">
 		<div class="row">
 			<div class="col-2">
 				<img src="images/mush1.jpg" width="100%" id="ProductImg">
-				
+
 				<div class="small-img-row">
 					<div class="small-img-col">
 						<img src="images/mush_all.jpg" width="100%" class="small-img">
@@ -47,9 +46,9 @@
 						<img src="images/image2.jpg" width="100%" class="small-img">
 					</div>
 				</div>
-				
+
 			</div>
-			
+
 			<div class="col-2">
 				<h1>Mycelia</h1>
 				<h4>$40.00</h4>
@@ -68,8 +67,8 @@
 			<p>View More</p>
 		</div>
 	</div>
-	
-<!--------products-------->	
+
+<!--------products-------->
 	<div class="small-container">
 		<div class="row">
 			<div class="col-4">
@@ -103,7 +102,7 @@
 					<h3>Find Us on Instagram</h3>
 				</div>
 				<div class="footer-col-2">
-					<img src="images/logo2.png"> 
+					<img src="images/logo2.png">
 				</div>
 				<div class="footer-col-3">
 					<h3>Silicone Safety Data Sheets</h3>
@@ -111,16 +110,16 @@
 			</div>
 			<hr>
 			<p class="copyright">Copyright 2021 - sp0re prints</p>
-			
+
 		</div>
-	</div>		
-	
+	</div>
+
 <!--------js for toggle menu-------->
 	<script>
 		var MenuItems = document.getElementById("MenuItems");
-		
+
 		MenuItems.style.maxHeight = "0px";
-		
+
 		function menutoggle(){
 			if(MenuItems.style.maxHeight == "0px")
 				{
@@ -131,13 +130,13 @@
 					MenuItems.style.maxHeight = "0px";
 				}
 		}
-	</script>	
-	
+	</script>
+
 <!--------js for product gallery-------->
 	<script>
 		var ProductImg = document.getElementById("ProductImg");
 		var SmallImg = document.getElementsByClassName("small-img");
-		
+
 			SmallImg[0].onclick = function()
 			{
 				ProductImg.src = SmallImg[0].src;
