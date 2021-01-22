@@ -196,6 +196,9 @@ h4{
 		display: block;
 		cursor: pointer;
 	}
+	.add-bottom-margin{
+		margin-bottom: 50px;
+	}
 }
 
 /*----- all products -----*/
