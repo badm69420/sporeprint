@@ -26,16 +26,51 @@
  		</div>
 	</div>
 	
+<!----- single product details----->
+
+	<div class="small-container single-product">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/mush1.jpg" width="100%" id="ProductImg">
+				
+				<div class="small-img-row">
+					<div class="small-img-col">
+						<img src="images/mush_all.jpg" width="100%" class="small-img">
+					</div>
+					<div class="small-img-col">
+						<img src="images/mush_all1.jpg" width="100%" class="small-img">
+					</div>
+					<div class="small-img-col">
+						<img src="images/image1.jpg" width="100%" class="small-img">
+					</div>
+					<div class="small-img-col">
+						<img src="images/image2.jpg" width="100%" class="small-img">
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="col-2">
+				<h1>Mycelia</h1>
+				<h4>$40.00</h4>
+				<a href="" class="btn">Add to Cart &#10047;</a>
+				<h3>Product Details</h3>
+				<br>
+				<p>4-inch mushroom with a little buddy growing off the main stem. Made from durable silicone with a medium softness.</p>
+			</div>
+		</div>
+	</div>
+
+<!--------title-------->
 	<div class="small-container">
 		<div class="row row-2">
-			<h2>All Shrooms</h2>
-			<select>
-				<option>Default Sorting</option>
-				<option>Sort by price</option>
-				<option>Sort by popularity</option>
-				<option>Sort by sale</option>
-			</select>
+			<h2>Related Products</h2>
+			<p>View More</p>
 		</div>
+	</div>
+	
+<!--------products-------->	
+	<div class="small-container">
 		<div class="row">
 			<div class="col-4">
 				<img src="images/mush1.jpg">
@@ -57,59 +92,6 @@
 				<h4>Mycelia</h4>
 				<p>$40.00</p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-4">
-				<img src="images/mush5.jpg">
-				<h4>Pileus</h4>
-				<p>$50.00</p>
-			</div>
-			<div class="col-4">
-				<img src="images/mush6.jpg">
-				<h4>Mycelia</h4>
-				<p>$40.00</p>
-			</div>
-			<div class="col-4">
-				<img src="images/mush7.jpg">
-				<h4>Pileus</h4>
-				<p>$50.00</p>
-			</div>
-			<div class="col-4">
-				<img src="images/mush8.jpg">
-				<h4>Mycelia</h4>
-				<p>$40.00</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-4">
-				<img src="images/mush9.jpg">
-				<h4>Pileus</h4>
-				<p>$50.00</p>
-			</div>
-			<div class="col-4">
-				<img src="images/mush10.jpg">
-				<h4>Pileus</h4>
-				<p>$50.00</p>
-			</div>
-			<div class="col-4">
-				<img src="images/mush11.jpg">
-				<h4>Pileus</h4>
-				<p>$50.00</p>
-			</div>
-			<div class="col-4">
-				<img src="images/mush12.jpg">
-				<h4>Mycelia</h4>
-				<p>$40.00</p>
-			</div>
-		</div>
-			
-				
-		<div class="page-btn">
-			<span>1</span>
-			<span>2</span>
-			<span>3</span>
-			<span>4</span>
-			<span>&#10047;</span>
 		</div>
 	</div>
 
@@ -150,5 +132,29 @@
 				}
 		}
 	</script>	
+	
+<!--------js for product gallery-------->
+	<script>
+		var ProductImg = document.getElementById("ProductImg");
+		var SmallImg = document.getElementsByClassName("small-img");
+		
+			SmallImg[0].onclick = function()
+			{
+				ProductImg.src = SmallImg[0].src;
+			}
+			SmallImg[1].onclick = function()
+			{
+				ProductImg.src = SmallImg[1].src;
+			}
+			SmallImg[2].onclick = function()
+			{
+				ProductImg.src = SmallImg[2].src;
+			}
+			SmallImg[3].onclick = function()
+			{
+				ProductImg.src = SmallImg[3].src;
+			}
+	</script>
+
 </body>
 </html>
