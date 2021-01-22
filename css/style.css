@@ -8,7 +8,7 @@ body{
 	font-family: 'Gorditas', cursive;
 }
 .navbar {
-	display: flex; 
+	display: flex;
 	align-items: center;
 	padding: 20px;
 }
@@ -110,7 +110,7 @@ p{
 	position: absolute;
 	bottom: 0;
 	left: 50%;
-	transform: translateX(-50%);	
+	transform: translateX(-50%);
 }
 h4{
 	color: #FFB6C1;
@@ -149,7 +149,7 @@ h4{
 	text-align: center;
 }
 .footer-col-2 img{
-	width: 140px; 
+	width: 140px;
 	margin-bottom: 20px;
 }
 .footer-col-3 {
@@ -157,7 +157,7 @@ h4{
 	text-align: center;
 }
 .footer hr{
-	border: none; 
+	border: none;
 	background: #9370DB;
 	height: 1px;
 	margin: 20px 0;
@@ -168,12 +168,15 @@ h4{
 .menu-icon {
 	width: 28px;
 	margin-left: 20px;
-	display:none;	
+	display:none;
+}
+.add-bottom-margin-contact{
+	margin-bottom: 50px;
 }
 /*-------- media query menu --------*/
 
 @media only screen and (max-width: 800px){
-	
+
 	nav ul{
 		position: absolute;
 		top: 140px;
@@ -218,9 +221,9 @@ select:focus{
 	margin: 0 auto 80px;
 }
 .page-btn span{
-	display: inline-block; 
+	display: inline-block;
 	border: 1px solid #9370DB;
-	margin-left: 10px; 
+	margin-left: 10px;
 	width: 40px;
 	height: 40px;
 	text-align: center;
@@ -249,7 +252,7 @@ select:focus{
 	font-weight: bold;
 }
 .small-img-row{
-	display: flex; 
+	display: flex;
 	justify-content: space-between;
 }
 .small-img-col{
@@ -260,16 +263,16 @@ select:focus{
 
 
 /*----media query for less than 600 screen size---*/
-	
+
 @media only screen and (max-width: 600px){
 	.row{
-		text-align: center;	
+		text-align: center;
 	}
 	.col-2, .col-4{
-		flex-basis: 100%;	
+		flex-basis: 100%;
 	}
 	.single-product .row{
-		text-align: left;		
+		text-align: left;
 	}
 	.single-product .col-2{
 		padding: 20px 0;
