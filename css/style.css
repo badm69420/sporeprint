@@ -225,7 +225,7 @@ select:focus{
 	border: 1px solid #9370DB;
 	margin-left: 10px;
 	width: 40px;
-	height: 40px;
+	height: 40px;	
 	text-align: center;
 	line-height: 40px;
 	cursor: pointer;
@@ -315,6 +315,9 @@ th:last-child{
 tr{
 	text-align: left;
 }
+
+/*---image gallery---*/
+
 
 /*----media query for less than 600 screen size---*/
 
