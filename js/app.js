@@ -42,12 +42,20 @@ app.get('/contact.html', (req, res) => {
   res.redirect('/contact');
 })
 
-app.get('/shopping-cart', (req, res) => {
+app.get('/cart', (req, res) => {
   res.sendFile(path.join(__dirname + '/../shopping-cart.html'));
 })
 
 app.get('/shopping-cart.html', (req, res) => {
-  res.redirect('/shopping-cart');
+  res.redirect('/cart');
+})
+
+app.get('/product-details', (req, res) => {
+  res.sendFile(path.join(__dirname + '/../product-details.html'));
+})
+
+app.get('/product-details.html', (req, res) => {
+  res.redirect('/product-details');
 })
 
 app.post('/create-checkout-session', async (req, res) => {
