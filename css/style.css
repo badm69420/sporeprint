@@ -261,7 +261,22 @@ select:focus{
 	flex-basis: 24%;
 	cursor: pointer;
 }
-
+.single-product select{
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+}
+.single-product input{
+	width: 50px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	border: 1px solid #9370DB;
+}
+input:focus{
+	outline: none;
+}
 /*---cart items ---*/
 
  .cart-page{
